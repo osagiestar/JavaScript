@@ -3,7 +3,7 @@
 var callMe = function() {
     var textX = random(0, 300);
     var textY = random(0, 300);
-    var YoufName = "Osagie";
+    var YourName = "Osagie";
     var city = "Birmingham";
     
     fill(255, 0, 0);
