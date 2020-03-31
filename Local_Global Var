@@ -1,0 +1,11 @@
+
+var realInch = 20;
+
+var totalInch = function(startInch, endInch, numYr) {
+	var someInch = (endInch - startInch * numYr);
+	realInch += someInch;
+	return someInch;
+};
+
+text("My height now would be", 10, 178);
+text(realInch, 10, 200);

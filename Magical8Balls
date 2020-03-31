@@ -1,0 +1,35 @@
+fill(0, 0, 0);
+ellipse(200, 200, 375, 375);
+fill(60, 0, 255);
+triangle(200, 104, 280, 280, 120, 280);
+fill(255, 255, 255);
+var answer = floor(random(1, 5));
+
+
+if (answer === 1 || answer < 2) {
+    fill(74, 240, 19);
+    text("GREATER", 176, 200);
+    text("OR EQUALS 1", 159, 229); 
+    }
+    else if (answer === 2 || answer < 3) {
+        fill(219, 27, 68);
+        text("GREATER", 176, 200);
+        text("OR EQUALS 2", 159, 229);   
+    }
+    else if (answer === 3 || answer < 4) {
+        fill(181, 52, 16);
+        text("GREATER", 176, 200);
+        text("OR EQUALS 3", 159, 229);   
+    }
+    else if (answer === 4 || answer < 5) {
+        text("GREATER", 176, 200);
+        text("OR EQUALS 4", 159, 229);   
+    }
+    else if (answer ===5) {
+        text("FANTASTIC", 176, 220);
+        text("5!", 189, 245);  
+        fill(255, 251, 250);
+    }
+
+    
+    
